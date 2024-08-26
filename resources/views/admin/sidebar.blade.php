@@ -84,7 +84,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-playlist-play"></i>
               </span>
-              <span class="menu-title">Category</span>
+              <span class="menu-title">Category C</span>
             </a>
           </li>
           <li class="nav-item menu-items">
@@ -92,7 +92,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-playlist-play"></i>
               </span>
-              <span class="menu-title">Order</span>
+              <span class="menu-title">Order O</span>
             </a>
           </li>
         </ul>
