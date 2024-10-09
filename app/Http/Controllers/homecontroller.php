@@ -196,7 +196,7 @@ class homecontroller extends Controller
             
         }
 
-        return redirect()->back()->with('message', 'Your order is successfuly recieved and we are delivering it as soon as possible');
+        return redirect()->back()->with('message', ' hello Your order is successfuly recieved and we are delivering it as soon as possible');
     }
     public function stripe($totalprice){
         // stripe implemetation start from here
