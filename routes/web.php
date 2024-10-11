@@ -52,7 +52,7 @@ Route::get('/delivered/{id}', [admincontroller::class, 'delivered']);
 Route::get('/download_pdf/{id}', [admincontroller::class, 'pdf']);
 
 Route::get('/send_email/{id}', [admincontroller::class, 'sendEmail']);
-
+// just doing rubbish
 Route::post('/send_email_notification/{id}', [admincontroller::class, 'sendEmailNotification']);
 
 Route::get('/search_route', [admincontroller::class, 'search']);
