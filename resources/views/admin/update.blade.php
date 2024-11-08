@@ -41,6 +41,15 @@
           display: inline-block;
           width: 200px;
         }
+        .bread{
+          margin: 10px;
+          border: none;
+          outline: none;
+        }
+        .latest_bread_crum{
+          padding: 200px;
+          border-radius: 10px;
+        }
     </style>
   </head>
   <body>
