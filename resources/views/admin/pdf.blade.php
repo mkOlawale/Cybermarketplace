@@ -23,7 +23,7 @@
 </head>
 <body>
     <div class="center">
-        <p class="txt-red"> Customer Name :  {{ $order->name}}</p>
+        <p class="txt-red"> Customer Name cybershop:  {{ $order->name}}</p>
 
         <p class="txt-blue"> Email :  {{ $order->email}}</p>
 

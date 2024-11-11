@@ -70,7 +70,7 @@
             </div>
             @endif
           <div class="div_center">
-            <h1 class="txt-font">Update Products</h1>
+            <h1 class="txt-font">Update Products from here</h1>
 
           <form action="{{ url('/update_products', $product->id) }}" method="POST" enctype="multipart/form-data">
             @csrf
