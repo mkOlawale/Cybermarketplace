@@ -64,11 +64,8 @@ class homecontroller extends Controller
         else
         {
             $product = product::paginate(10);
-
             $comment = comment::orderby('id', 'desc')->get();
-
             $reply = reply::orderby('id', 'desc')->get();
-
             return view('home.homepage', compact('product', 'comment', 'reply'));
         }
     }
