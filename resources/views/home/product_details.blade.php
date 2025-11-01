@@ -31,7 +31,7 @@
          <div class="col-sm-6 col-md-4 col-lg-4" style="margin: 0 auto; width: 50%;">
                   <div class="box">
                      <div class="img-box">
-                        <img src="/product/{{$product->image}}" alt="">
+                        <img src="/product/{{$product->image}}" alt="" width="400" height="400">
                      </div>
                      <div class="detail-box">
                         <h5>
@@ -39,24 +39,36 @@
                         </h5>
                         @if($product->Discount_price != null)
                         <h6 style="color: red;">
-                        Discount_price = 
+                           Discount_price =
                            ${{$product->Discount_price}}
                         </h6>
                         <h6 style="text-decoration: line-through; color: blue;">
+                           
                         Price = 
+
                            ${{$product->price}}
+
                         </h6>
+
                         @else
+
                         <h6 style="color: blue;">
+
                         price
+
                         <br>
+
                            ${{$product->price}}
+
                         </h6>
+
                         @endif
 
-                        <h6>Product category: {{$product->Category}}</h6>
-                        <h6>Product Details: {{$product->Description}}</h6>
-                        <h6>Available pieces: {{$product->Quality}}</h6>
+                        <h6>Product category:  {{$product->Category}}</h6>
+
+                        <h6>Product Details:  {{$product->Description}}</h6>
+
+                        <h6>Available pieces:  {{$product->Quality}}</h6>
 
                         <form action="{{ url('add_cart', $product->id) }}" method="post">
                            @csrf
